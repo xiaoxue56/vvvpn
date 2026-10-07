@@ -1,7 +1,7 @@
-# JP / KR VPNGate checked candidate pools
+# JP / TW / SG VPNGate checked candidate pools
 
-GitHub Actions runs at minute 17 and 47 of each UTC hour, and supports manual dispatch. GitHub scheduling can be delayed. Uses repository Secrets `DOMAIN` (owned checker HTTPS origin) and `CHECK_TOKEN` (Bearer authentication); neither is published. Pages contains checked JP/KR SSTP candidate metadata and public VPNGate credentials only. Edge UUIDs, URLs and production inbound credentials must never be committed.
+GitHub Actions runs at minute 17 and 47 of each UTC hour and supports manual dispatch. Scheduling can be delayed. Uses repository Secrets `DOMAIN` and `CHECK_TOKEN`; neither is published. Edge UUIDs, URLs and production inbound credentials must never be committed.
 
-If either country has zero successful checks the job fails and leaves the previously deployed Pages site unchanged. Check timestamps before use. OpenVPN TCP-derived SSTP candidates are accepted only after the owned SSTP checker returns success. Residential status is unverified; general UDP/IPv6 is not supported. These public pools do not change any active production sidecar automatically.
+Empty countries are published as count=0, not invented and not a reason to block another working country. `target_source_counts` records the official feed's TCP candidate counts. Check timestamps before use. Checker success is advisory: active production replacements additionally require fail-closed end-to-end tests via the owned edge Worker, two IP databases, Google, GitHub and Cloudflare.
 
-Production is managed independently by private scripts on the server. No third-party subscriptions or checkers are used.
+Residential status is unverified; general UDP/IPv6 is unsupported. Active server sidecar health is checked independently by a private systemd timer. Only already provisioned desired country routes can refresh; optional empty countries do not create broken client nodes. The main server and its previous nodes do not depend on the sidecar, and new nodes do not silently fall back to direct.

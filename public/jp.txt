@@ -1,3 +1,5 @@
 sstp://vpn:vpn@vpn579932260.opengw.net:1674
+sstp://vpn:vpn@vpn582125626.opengw.net:1358
 sstp://vpn:vpn@vpn987180915.opengw.net:1213
+sstp://vpn:vpn@vpn832620619.opengw.net:1749
 sstp://vpn:vpn@vpn862646088.opengw.net:1498

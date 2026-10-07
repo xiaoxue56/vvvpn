@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-07 07:16:34 UTC",
+  "generated_at": "2026-10-07 08:02:00 UTC",
   "country": "JP",
-  "count": 3,
+  "count": 5,
   "nodes": [
     {
       "host": "vpn579932260.opengw.net",
@@ -12,7 +12,7 @@
       "protocol": "sstp",
       "link": "sstp://vpn:vpn@vpn579932260.opengw.net:1674",
       "status": "success",
-      "checked_at": "2026-10-07 07:16 UTC",
+      "checked_at": "2026-10-07 08:01 UTC",
       "exit": {
         "ip": "114.164.96.126",
         "country": "Japan",
@@ -26,7 +26,34 @@
       },
       "residential": "unverified",
       "success": true,
-      "latency_ms": 2621,
+      "latency_ms": 2910,
+      "colo": "SJC",
+      "error": null
+    },
+    {
+      "host": "vpn582125626.opengw.net",
+      "port": 1358,
+      "ip": "124.215.2.130",
+      "country": "Japan",
+      "country_code": "JP",
+      "protocol": "sstp",
+      "link": "sstp://vpn:vpn@vpn582125626.opengw.net:1358",
+      "status": "success",
+      "checked_at": "2026-10-07 08:01 UTC",
+      "exit": {
+        "ip": "124.215.2.130",
+        "country": "Japan",
+        "country_code": "JP",
+        "city": "Fujisawa",
+        "continent": "Asia",
+        "asn": "AS2516",
+        "org": "KDDI CORPORATION",
+        "type": "isp",
+        "is_datacenter": false
+      },
+      "residential": "unverified",
+      "success": true,
+      "latency_ms": 2959,
       "colo": "SJC",
       "error": null
     },
@@ -39,7 +66,7 @@
       "protocol": "sstp",
       "link": "sstp://vpn:vpn@vpn987180915.opengw.net:1213",
       "status": "success",
-      "checked_at": "2026-10-07 07:16 UTC",
+      "checked_at": "2026-10-07 08:01 UTC",
       "exit": {
         "ip": "106.168.192.30",
         "country": "Japan",
@@ -53,7 +80,34 @@
       },
       "residential": "unverified",
       "success": true,
-      "latency_ms": 2150,
+      "latency_ms": 2293,
+      "colo": "SJC",
+      "error": null
+    },
+    {
+      "host": "vpn832620619.opengw.net",
+      "port": 1749,
+      "ip": "221.71.177.210",
+      "country": "Japan",
+      "country_code": "JP",
+      "protocol": "sstp",
+      "link": "sstp://vpn:vpn@vpn832620619.opengw.net:1749",
+      "status": "success",
+      "checked_at": "2026-10-07 08:01 UTC",
+      "exit": {
+        "ip": "221.71.177.210",
+        "country": "Japan",
+        "country_code": "JP",
+        "city": "Tokyo",
+        "continent": "Asia",
+        "asn": "AS17676",
+        "org": "SoftBank Mobile Corp.",
+        "type": "isp",
+        "is_datacenter": false
+      },
+      "residential": "unverified",
+      "success": true,
+      "latency_ms": 3211,
       "colo": "SJC",
       "error": null
     },
@@ -66,7 +120,7 @@
       "protocol": "sstp",
       "link": "sstp://vpn:vpn@vpn862646088.opengw.net:1498",
       "status": "success",
-      "checked_at": "2026-10-07 07:16 UTC",
+      "checked_at": "2026-10-07 08:01 UTC",
       "exit": {
         "ip": "106.167.141.17",
         "country": "Japan",
@@ -80,7 +134,7 @@
       },
       "residential": "unverified",
       "success": true,
-      "latency_ms": 2661,
+      "latency_ms": 2876,
       "colo": "SJC",
       "error": null
     }

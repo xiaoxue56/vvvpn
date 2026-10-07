@@ -1,4 +1,4 @@
-name: Authenticated JP KR pools
+name: Authenticated JP TW SG pools
 on:
   workflow_dispatch:
   push:
@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
-      - name: Update authenticated JP KR candidate pools
+      - name: Update authenticated JP TW SG candidate pools
         env:
           DOMAIN: ${{ secrets.DOMAIN }}
           CHECK_TOKEN: ${{ secrets.CHECK_TOKEN }}
