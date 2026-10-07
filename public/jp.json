@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-10-07 07:16:34 UTC",
+  "country": "JP",
+  "count": 3,
+  "nodes": [
+    {
+      "host": "vpn579932260.opengw.net",
+      "port": 1674,
+      "ip": "114.164.96.126",
+      "country": "Japan",
+      "country_code": "JP",
+      "protocol": "sstp",
+      "link": "sstp://vpn:vpn@vpn579932260.opengw.net:1674",
+      "status": "success",
+      "checked_at": "2026-10-07 07:16 UTC",
+      "exit": {
+        "ip": "114.164.96.126",
+        "country": "Japan",
+        "country_code": "JP",
+        "city": "Shiroi",
+        "continent": "Asia",
+        "asn": "AS4713",
+        "org": "NTT DOCOMO BUSINESS,Inc.",
+        "type": "isp",
+        "is_datacenter": false
+      },
+      "residential": "unverified",
+      "success": true,
+      "latency_ms": 2621,
+      "colo": "SJC",
+      "error": null
+    },
+    {
+      "host": "vpn987180915.opengw.net",
+      "port": 1213,
+      "ip": "106.168.192.30",
+      "country": "Japan",
+      "country_code": "JP",
+      "protocol": "sstp",
+      "link": "sstp://vpn:vpn@vpn987180915.opengw.net:1213",
+      "status": "success",
+      "checked_at": "2026-10-07 07:16 UTC",
+      "exit": {
+        "ip": "106.168.192.30",
+        "country": "Japan",
+        "country_code": "JP",
+        "city": "Tokyo",
+        "continent": "Asia",
+        "asn": "AS2516",
+        "org": "KDDI CORPORATION",
+        "type": "isp",
+        "is_datacenter": false
+      },
+      "residential": "unverified",
+      "success": true,
+      "latency_ms": 2150,
+      "colo": "SJC",
+      "error": null
+    },
+    {
+      "host": "vpn862646088.opengw.net",
+      "port": 1498,
+      "ip": "106.167.141.17",
+      "country": "Japan",
+      "country_code": "JP",
+      "protocol": "sstp",
+      "link": "sstp://vpn:vpn@vpn862646088.opengw.net:1498",
+      "status": "success",
+      "checked_at": "2026-10-07 07:16 UTC",
+      "exit": {
+        "ip": "106.167.141.17",
+        "country": "Japan",
+        "country_code": "JP",
+        "city": "Kawasaki",
+        "continent": "Asia",
+        "asn": "AS2516",
+        "org": "KDDI CORPORATION",
+        "type": "isp",
+        "is_datacenter": false
+      },
+      "residential": "unverified",
+      "success": true,
+      "latency_ms": 2661,
+      "colo": "SJC",
+      "error": null
+    }
+  ]
+}

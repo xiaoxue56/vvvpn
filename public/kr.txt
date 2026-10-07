@@ -1,0 +1,14 @@
+sstp://vpn:vpn@vpn421743167.opengw.net:995
+sstp://vpn:vpn@vpn687618522.opengw.net:1666
+sstp://vpn:vpn@vpn824185996.opengw.net:1819
+sstp://vpn:vpn@vpn883356300.opengw.net:995
+sstp://vpn:vpn@vpn629011193.opengw.net:1642
+sstp://vpn:vpn@vpn258365250.opengw.net:1332
+sstp://vpn:vpn@vpn114879424.opengw.net:995
+sstp://vpn:vpn@vpn120165977.opengw.net:995
+sstp://vpn:vpn@vpn235782390.opengw.net:995
+sstp://vpn:vpn@vpn689088618.opengw.net:995
+sstp://vpn:vpn@vpn849714078.opengw.net:995
+sstp://vpn:vpn@vpn730192273.opengw.net:995
+sstp://vpn:vpn@vpn329333029.opengw.net:995
+sstp://vpn:vpn@vpn533203427.opengw.net:1747
